@@ -4,9 +4,9 @@ import { APP_PIPE } from '@nestjs/core';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import cookieSession from 'cookie-session';
 // import { dataSourceOptions } from 'typeorm.config';
-import { dbConfig } from '../ormconfig';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { dbConfig } from './ormconfig';
 import { ReportsModule } from './reports/reports.module';
 import { UsersModule } from './users/users.module';
 
